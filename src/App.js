@@ -3,6 +3,7 @@ import Portfolio from './components/portfolio/Portfolio'
 import Header from './components/Header'
 import About from './components/about/About'
 import Resume from './components/resume/Resume';
+import Contact from './components/contact/Contact';
 import Home from './components/home/Home'
 import Footer from './components/Footer';
 import { useState } from 'react';
@@ -17,7 +18,7 @@ function App() {
 
   const renderPage = () => {
     if (currentPage === 'home') {
-      return <About />;
+      return <Home />;
     } else if (currentPage === 'about') {
       return <About />;
     } else if (currentPage === 'portfolio') {
@@ -25,7 +26,7 @@ function App() {
     } else if (currentPage === 'resume') {
       return <Resume />;
     } else if (currentPage === 'contact') {
-      return <Resume />;
+      return <Contact />;
     }
   };
 

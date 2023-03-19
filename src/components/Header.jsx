@@ -34,7 +34,7 @@ function CollapsibleExample({currentPage, setCurrentPage}) {
                 <Nav.Link href="#about" onClick={() => setCurrentPage('about')}>About</Nav.Link>
                 <Nav.Link href="#portfolio" onClick={() => setCurrentPage('portfolio')}>Portfolio</Nav.Link>
                 <Nav.Link href="#resume" onClick={() => setCurrentPage('resume')}>Resume</Nav.Link>
-                <Nav.Link href="#conact" onClick={() => setCurrentPage('contact')}>Contact</Nav.Link>
+                <Nav.Link href="#contact" onClick={() => setCurrentPage('contact')}>Contact</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>

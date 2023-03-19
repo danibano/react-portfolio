@@ -1,10 +1,13 @@
 import me from '../images/me.jpg'
+import './home.css'
 
 function Home () {
     return (
-        <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia sunt unde harum et, laboriosam, natus, maxime odio quos amet velit veniam qui porro iste voluptates atque magni minus quas nemo!</p>
-            <img src={me} alt='headshot' />
+        <div id='home'>
+            <h1> Danielle Banovetz</h1>
+            <h2> Web Developer</h2>
+            <p>I'm a web developer passinate about designing and developing beautiful websites. Check out my portfolio to see some of my past work and get a feel for what I can do for you. Let's chat and see how I can help you build your website! </p>
+            <img src={me} alt='headshot' className='me'/>
         </div>
     )
 }

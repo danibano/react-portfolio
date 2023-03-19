@@ -1,0 +1,15 @@
+.contact-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    margin: 1rem;
+}
