@@ -8,9 +8,9 @@ function About() {
             <div className='about-box'>
                 <div id='about'>
                     <div className='wrapper'>
-                        <img className='about-img animate__animated animate__fadeInUp animate__slower' src={me}></img>
+                        <img className='about-img' src={me}></img>
                     </div>
-                    <div className='about-text animate__animated animate__fadeInDownBig animate__slower animate__delay-1s'>
+                    <div className='about-text'>
                         <h2> About Me</h2>
                         <p> I'm a web developer with a passion for creating stunning and functional websites. I recently graduated from the University of Minnesota full stack coding bootcamp, where I gained a strong foundation in web development technologies and best practices.
                         <br></br>

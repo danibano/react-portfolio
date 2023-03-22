@@ -27,14 +27,14 @@ function CollapsibleExample({currentPage, setCurrentPage}) {
     <header className={isSticky ? 'sticky' : ''}>
         <Navbar collapseOnSelect expand="lg" >
         <Container>
-            <Navbar.Brand href="#home" onClick={() => setCurrentPage('home')}>Dani Bano</Navbar.Brand>
+            <Navbar.Brand href="#home" className='link' onClick={() => setCurrentPage('home')}>Dani Bano</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-                <Nav.Link href="#about" onClick={() => setCurrentPage('about')}>About</Nav.Link>
-                <Nav.Link href="#portfolio" onClick={() => setCurrentPage('portfolio')}>Portfolio</Nav.Link>
-                <Nav.Link href="#resume" onClick={() => setCurrentPage('resume')}>Resume</Nav.Link>
-                <Nav.Link href="#contact" onClick={() => setCurrentPage('contact')}>Contact</Nav.Link>
+                <Nav.Link href="#about" className='link' onClick={() => setCurrentPage('about')}>About</Nav.Link>
+                <Nav.Link href="#portfolio" className='link' onClick={() => setCurrentPage('portfolio')}>Portfolio</Nav.Link>
+                <Nav.Link href="#resume" className='link' onClick={() => setCurrentPage('resume')}>Resume</Nav.Link>
+                <Nav.Link href="#contact" className='link' onClick={() => setCurrentPage('contact')}>Contact</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>
