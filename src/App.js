@@ -38,14 +38,17 @@ function App() {
     </div>
   );
 
-//   return (
-//     <div>
-//       <Header />
-//       <About />
-//       <Portfolio/>
-//       <Footer />
-//     </div>
-//   )
+  // return (
+  //   <div>
+  //     <Header />
+  //     <Home />
+  //     <About />
+  //     <Portfolio/>
+  //     <Resume />
+  //     <Contact />
+  //     <Footer />
+  //   </div>
+  // )
 }
 
 export default App;

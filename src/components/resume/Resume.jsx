@@ -7,7 +7,7 @@ const Resume = () => {
 
     const docs = [{ uri: require("./Resume.pdf") }];
     return (
-        <Container className='animate__animated animate__fadeIn animate__slow' id='resume'>
+        <Container id='resume'>
             <Row>
                 <DocViewer pluginRenderers={DocViewerRenderers} documents={docs} />
             </Row>

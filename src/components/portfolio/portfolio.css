@@ -21,8 +21,8 @@ p {
   background:
     linear-gradient(
       to right,
-      #ffffff,
-      #ffffff
+      #000000,
+      #000000
     ),
     linear-gradient(
       to right,
@@ -38,4 +38,16 @@ p {
 
 .link:hover {
   background-size: 0 3px, 100% 3px;
+}
+
+.border-gradient-sm {
+  border: 1rem solid;
+  border-image-slice: 1;
+  border-image-source:
+      linear-gradient(
+          to right,
+          #a4c7b2,
+          #819c8c,
+          #5e7266
+      ) ;
 }
